@@ -1,6 +1,6 @@
 <?php
-$user = "sansxpl";
-$pass = "sxpl69";
+$user = "not";
+$pass = "me";
  if (($_SERVER["PHP_AUTH_USER"] != $user) || (($_SERVER["PHP_AUTH_PW"]) != $pass))
  {
   header("WWW-Authenticate: Basic realm=\"Login\"");
